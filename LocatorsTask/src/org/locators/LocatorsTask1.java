@@ -24,7 +24,5 @@ public class LocatorsTask1 {
 		
 		WebElement loginBtn = driver.findElement(By.name("login"));
 		loginBtn.click();
-		
 	}
-
 }
