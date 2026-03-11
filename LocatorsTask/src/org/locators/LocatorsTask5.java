@@ -21,8 +21,5 @@ public class LocatorsTask5 {
         
         WebElement Lastname = driver.findElement(By.xpath("//input[@type='text']"));
         Lastname.sendKeys("V");
-        
-		
 	}
-
 }
