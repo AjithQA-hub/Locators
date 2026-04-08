@@ -9,11 +9,8 @@ public class LocatorsTask8 {
 	public static void main(String[] args) {
 		
         System.setProperty("webdriver.chrome.driver","C:\\Users\\AJITH\\eclipse-workspace\\Locators1\\Drivers\\chromedriver.exe");
-		
 		WebDriver driver=new ChromeDriver();
-		
 		driver.get("https://www.cleartrip.com/trains");
-		
 		driver.manage().window().maximize();
 		
 		WebElement From = driver.findElement(By.xpath("//input[@title='From station']"));
@@ -26,5 +23,4 @@ public class LocatorsTask8 {
         logbtn.click();
 		
 	}
-
 }
