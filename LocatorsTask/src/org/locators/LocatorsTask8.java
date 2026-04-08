@@ -21,6 +21,5 @@ public class LocatorsTask8 {
         
         WebElement logbtn = driver.findElement(By.xpath("//button[@type='submit']"));
         logbtn.click();
-		
 	}
 }
